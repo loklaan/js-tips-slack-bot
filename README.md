@@ -60,6 +60,7 @@ There are four config variables for this project:
 - `SLACK_TOKEN` - Slack API Token - in order to create one visit [Slack API settings](https://api.slack.com/web)
 - `SLACK_GROUP` - Target Slack group - specify the Slack group that will receive the messages
 - `SLACK_POST_TO` ( optional ) - Specify if the messages should be posted to a private group ( `group` ) which is the default option or a public channel ( `channel` )
+- `SLACK_TEMPLATE` ( optional ) - Specify the format of the message, using the placeholders '`_TITLE`' and '`_URL`' (default in `.sample-env`)
 
 
 ## Test it locally

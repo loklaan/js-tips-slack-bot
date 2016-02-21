@@ -1,4 +1,5 @@
 SLACK_TOKEN=xoxp-xxxxxx
 SLACK_GROUP=xxxxxxxxx
 SLACK_POST_TO=group|channel
+SLACK_TEMPLATE="*Title:* `_TITLE`\n\n*URL:* _URL"
 GH_TOKEN=xxxxxxxxx
